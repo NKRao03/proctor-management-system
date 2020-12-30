@@ -1,0 +1,33 @@
+D:\My Projects\PMS\bin\Debug\Database1.mdf
+D:\My Projects\PMS\bin\Debug\Database1_log.ldf
+D:\My Projects\PMS\bin\Debug\PMS.exe.config
+D:\My Projects\PMS\bin\Debug\PMS.exe
+D:\My Projects\PMS\bin\Debug\PMS.pdb
+D:\My Projects\PMS\obj\Debug\PMS.csprojAssemblyReference.cache
+D:\My Projects\PMS\obj\Debug\PMS.Form1.resources
+D:\My Projects\PMS\obj\Debug\PMS.Properties.Resources.resources
+D:\My Projects\PMS\obj\Debug\PMS.csproj.GenerateResource.cache
+D:\My Projects\PMS\obj\Debug\PMS.exe
+D:\My Projects\PMS\obj\Debug\PMS.pdb
+D:\My Projects\PMS\obj\Debug\PMS.Body.resources
+D:\My Projects\PMS\obj\Debug\PMS.Meetings_UC.resources
+D:\My Projects\PMS\obj\Debug\PMS.About_UC.resources
+D:\My Projects\PMS\obj\Debug\PMS.Student_UC.resources
+D:\My Projects\PMS\obj\Debug\PMS.Marks_UC.resources
+C:\Users\nanda\Documents\Proctor Management System\PMS\bin\Debug\Database1.mdf
+C:\Users\nanda\Documents\Proctor Management System\PMS\bin\Debug\Database1_log.ldf
+C:\Users\nanda\Documents\Proctor Management System\PMS\bin\Debug\PMS.exe.config
+C:\Users\nanda\Documents\Proctor Management System\PMS\bin\Debug\PMS.exe
+C:\Users\nanda\Documents\Proctor Management System\PMS\bin\Debug\PMS.pdb
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.csprojAssemblyReference.cache
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.Form1.resources
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.Body.resources
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.Properties.Resources.resources
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.Meetings_UC.resources
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.Student_UC.resources
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.About_UC.resources
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.Marks_UC.resources
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.csproj.GenerateResource.cache
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.csproj.CoreCompileInputs.cache
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.exe
+C:\Users\nanda\Documents\Proctor Management System\PMS\obj\Debug\PMS.pdb
