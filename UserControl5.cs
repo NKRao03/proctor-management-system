@@ -61,11 +61,32 @@ namespace PMS
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("MarkAddValueProcedure", con);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@USN", usn_tb.Text);
-            cmd.Parameters.AddWithValue("@semester", sem_tb.Text);
-            cmd.Parameters.AddWithValue("@sub3", sub3_tb.Text);
-            cmd.Parameters.AddWithValue("@sub2", sub2_tb.Text);
-            cmd.Parameters.AddWithValue("@sub1", sub1_tb.Text);
+
+            int m1 = Convert.ToInt32(sub1_tb.Text);
+            int m2 = Convert.ToInt32(sub2_tb.Text);
+            int m3 = Convert.ToInt32(sub3_tb.Text);
+            int m4 = Convert.ToInt32(sub4_tb.Text);
+            int m5 = Convert.ToInt32(sub5_tb.Text);
+            int m6 = Convert.ToInt32(sub6_tb.Text);
+
+            if (m1 > 100 || m2 > 100 || m3 > 100 || m4 > 100 || m5 > 100 || m6 > 100) {
+                MessageBox.Show("Enter value less than 100");
+            }
+
+            else if (m1 < 0 || m2 < 0 || m3 < 0 || m4 < 0 || m5 < 0 || m6 < 0 ) {
+                MessageBox.Show("Enter value greater than 0");
+            }
+
+            else {
+                cmd.Parameters.AddWithValue("@USN", usn_tb.Text);
+                cmd.Parameters.AddWithValue("@semester", sem_tb.Text);
+                cmd.Parameters.AddWithValue("@sub6", sub6_tb.Text);
+                cmd.Parameters.AddWithValue("@sub5", sub5_tb.Text);
+                cmd.Parameters.AddWithValue("@sub4", sub4_tb.Text);
+                cmd.Parameters.AddWithValue("@sub3", sub3_tb.Text);
+                cmd.Parameters.AddWithValue("@sub2", sub2_tb.Text);
+                cmd.Parameters.AddWithValue("@sub1", sub1_tb.Text);
+            }
 
             con.Open();
 
